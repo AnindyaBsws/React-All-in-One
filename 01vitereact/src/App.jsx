@@ -1,9 +1,12 @@
-
-
+import Chai from "./chai"
 function App() {
 
   return (
-    <h1>Baby yohoo</h1>
+    <>
+    <Chai />
+    <h1>this is wrapped by tags</h1>
+    <p>whatsuppp</p>
+    </>
   )
 }
 
